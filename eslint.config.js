@@ -13,11 +13,11 @@ export default [
   pluginReact.configs.flat.recommended,
   {
     rules: {
-      "no-console": 'warn',
+      "no-console": "warn",
       "no-unused-vars": "warn",
       "react/prop-types": "off",
       "semi": ["error", "always"],
-      "quotes": ["error", "double"],
+      "quotes": ["error", "double", { "avoidEscape": true }],
       "react/react-in-jsx-scope": "off"
     }
   }
