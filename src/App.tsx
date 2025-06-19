@@ -3,7 +3,9 @@
 function App() {
   return (
     <>
-      Hello
+    <div className="h-10 bg-red-500">
+      Hello a world
+    </div>
     </>
   );
 }
