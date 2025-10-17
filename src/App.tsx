@@ -8,11 +8,16 @@ const MainLayout = lazy(() => import("./Pages/MainLayout"));
 
 const router = createBrowserRouter([
   {
+    path: "/",
+    element: <MainLayout />,
+    errorElement: <PageNotFound />
+  },
+  {
     path: "/home",
     element: <MainLayout />,
     children: [
       {
-        path:"/home/news",
+        path:"/news",
         element: (
           <Suspense>
             <HomeFeed />

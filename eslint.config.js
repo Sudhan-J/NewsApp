@@ -18,7 +18,8 @@ export default [
       "react/prop-types": "off",
       "semi": ["error", "always"],
       "quotes": ["error", "double", { "avoidEscape": true }],
-      "react/react-in-jsx-scope": "off"
+      "react/react-in-jsx-scope": "off",
+      "indent": ["warn",2]
     }
   }
 ];

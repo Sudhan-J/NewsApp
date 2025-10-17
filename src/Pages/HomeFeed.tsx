@@ -1,9 +1,9 @@
 export default function HomeFeed() {
-    return(
-        <>
-        <div>
-            Home 
-        </div>
-        </>
-    );
+  return(
+    <>
+      <div>
+            Home
+      </div>
+    </>
+  );
 }
