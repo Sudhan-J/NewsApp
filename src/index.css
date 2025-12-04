@@ -16,6 +16,10 @@
 html,body {
     font-family: 'Poppins', Arial !important;
     font-size: 14px;
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
 }
 
 body {

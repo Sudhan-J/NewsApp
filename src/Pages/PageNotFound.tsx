@@ -2,7 +2,9 @@
 export default function PageNotFound() {
   return (
     <>
-         Page not found
+      <div className="w-full h-full flex items-center justify-center bg-red-300">
+        Page not found
+      </div>
     </>
   );
 }

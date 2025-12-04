@@ -5,12 +5,12 @@ import Footer from "../Components/Footer";
 export default function MainLayout() {
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col min-h-screen">
         <div>
           {/* header her */}
           <Header/>
         </div>
-        <div className = "w-full">
+        <div className = "flex-1">
           {/* main content here */}
           <Outlet></Outlet>
         </div>
